@@ -21,5 +21,23 @@ An automated website vulnerability assessment scanner that performs reconnaissan
 ## Installation
 
 **Linux/Ubuntu:**
+## Download & Setup
+
+### Method 1: Clone with Git (Recommended)
 ```bash
+# Clone the repository
+git clone https://github.com/itsmeammar/vulnerability-scanner.git
+
+# Navigate to the directory
+cd vulnerability-scanner
+
+# Install dependencies
 sudo apt install nmap curl dnsutils
+
+# Add permission
+sudo chmod +x Vulnerability-Assesment-Script-1.py
+
+# Run the scanner
+./Vulnerability-Assesment-Script-1.py example.com
+
+Note: You must have permission to scan the target website!
