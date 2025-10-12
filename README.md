@@ -21,6 +21,15 @@ An automated website vulnerability assessment scanner that performs reconnaissan
 ## Installation
 
 **Linux/Ubuntu:**
+```bash
+sudo apt install nmap curl dnsutils
+```
+
+**macOS:**
+```bash
+brew install nmap curl bind
+```
+
 ## Download & Setup
 
 ### Method 1: Clone with Git (Recommended)
@@ -31,37 +40,41 @@ git clone https://github.com/itsmeammar/vulnerability-scanner.git
 # Navigate to the directory
 cd vulnerability-scanner
 
-# Install dependencies
-sudo apt install nmap curl dnsutils
-
 # Add permission
 sudo chmod +x Vulnerability-Assesment-Script-1.py
 
 # Run the scanner
 ./Vulnerability-Assesment-Script-1.py example.com
+```
 
-Method 2: Download ZIP
+### Method 2: Download ZIP
+1. Click the green **"Code"** button above
+2. Click **"Download ZIP"**
+3. Extract the ZIP file
+4. Open terminal in the extracted folder
+5. Run:
+```bash
+sudo apt install nmap curl dnsutils
+sudo chmod +x Vulnerability-Assesment-Script-1.py
+./Vulnerability-Assesment-Script-1.py example.com
+```
 
-Click the green "Code" button above
-Click "Download ZIP"
-Extract the ZIP file
-Open terminal in the extracted folder
-Install dependencies: sudo apt install nmap curl dnsutils
-Run: sudo chmod +x Vulnerability-Assesment-Script-1.py
-Run: Vulnerability-Assesment-Script-1.py
+## Usage
+```bash
+./Vulnerability-Assesment-Script-1.py example.com
+```
 
-Note: You must have permission to scan the target website!
+**Note:** You must have permission to scan the target website!
 
 ## Output
+All scan results are saved in the `scan_results/` directory with detailed reports.
 
-All scan results are saved in the scan_results/ directory with detailed reports.
+## ⚠️ Disclaimer
 
-⚠️ Disclaimer
+This tool is for **educational purposes and authorized testing only**.
+- Always get permission before scanning any website
+- Unauthorized scanning is illegal
+- The author is not responsible for misuse
 
-This tool is for educational purposes and authorized testing only.
 
-Always get permission before scanning any website
-Unauthorized scanning is illegal
-The author is not responsible for misuse
-
-HappyHacking!
+**HappyHacking!**
