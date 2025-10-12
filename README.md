@@ -40,4 +40,14 @@ sudo chmod +x Vulnerability-Assesment-Script-1.py
 # Run the scanner
 ./Vulnerability-Assesment-Script-1.py example.com
 
+Method 2: Download ZIP
+
+Click the green "Code" button above
+Click "Download ZIP"
+Extract the ZIP file
+Open terminal in the extracted folder
+Install dependencies: sudo apt install nmap curl dnsutils
+Run: sudo chmod +x Vulnerability-Assesment-Script-1.py
+Run: Vulnerability-Assesment-Script-1.py
+
 Note: You must have permission to scan the target website!
