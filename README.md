@@ -51,3 +51,17 @@ Run: sudo chmod +x Vulnerability-Assesment-Script-1.py
 Run: Vulnerability-Assesment-Script-1.py
 
 Note: You must have permission to scan the target website!
+
+## Output
+
+All scan results are saved in the scan_results/ directory with detailed reports.
+
+⚠️ Disclaimer
+
+This tool is for educational purposes and authorized testing only.
+
+Always get permission before scanning any website
+Unauthorized scanning is illegal
+The author is not responsible for misuse
+
+HappyHacking!
