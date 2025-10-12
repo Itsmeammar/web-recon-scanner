@@ -23,4 +23,3 @@ An automated website vulnerability assessment scanner that performs reconnaissan
 **Linux/Ubuntu:**
 ```bash
 sudo apt install nmap curl dnsutils
-Update README
