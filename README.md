@@ -5,6 +5,9 @@ Created by **AMMAR 404**
 ## About
 An automated website vulnerability assessment scanner that performs reconnaissance and security testing on web applications.
 
+This script was generated with the help of AI, guided by thoughtful prompts and design decisions by the author.
+
+
 ## Features
 - 🔍 IP Discovery
 - 🌐 Network Scanning with Nmap
