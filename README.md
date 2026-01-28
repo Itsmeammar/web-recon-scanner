@@ -1,83 +1,61 @@
-# ENDER1 - Vulnerability Scanner
+# Basic Vulnerability Scanner
 
-Created by **AMMAR 404**
+**Author:** Ammar  
+**License:** MIT
 
-## About
-An automated website vulnerability assessment scanner that performs reconnaissance and security testing on web applications.
+### Overview
+A lightweight, Python-based web security scanner built with the help of **AI and prompt engineering** to support **basic reconnaissance and initial security assessment** of web applications.
 
-This script was generated with the help of AI, guided by thoughtful prompts and design decisions by the author.
+This project focuses on understanding how reconnaissance workflows operate and how scan results should be interpreted manually.
 
+### What it does
+- 🔍 IP and domain discovery  
+- 🌐 Basic network scanning (Nmap)  
+- 🔒 Security headers analysis  
+- 📁 Directory discovery  
+- 🖥️ Server and technology fingerprinting  
 
-## Features
-- 🔍 IP Discovery
-- 🌐 Network Scanning with Nmap
-- 🔒 Security Headers Analysis
-- 📁 Directory Discovery
-- 🖥️ Server Information Gathering
+### Purpose
+This is a **learning project** designed to:  
+- Practice web reconnaissance fundamentals  
+- Explore common security misconfigurations  
+- Improve interaction with AI models to design and refine security tooling  
 
-## Requirements
-- Python 3.x
-- nmap
-- curl
-- dig
+### Requirements
+- Python 3.x  
+- nmap  
+- curl  
+- dig  
 
-## Installation
-
-**Linux/Ubuntu:**
+**Linux / Ubuntu**
 ```bash
 sudo apt install nmap curl dnsutils
-```
+````
 
-**macOS:**
+**macOS**
+
 ```bash
 brew install nmap curl bind
 ```
 
-## Download & Setup
+### Installation
 
-### Method 1: Clone with Git (Recommended)
 ```bash
-# Clone the repository
-git clone https://github.com/itsmeammar/vulnerability-scanner.git
-
-# Navigate to the directory
-cd vulnerability-scanner
-
-# Add permission
-sudo chmod +x Vulnerability-Assesment-Script-1.py
-
-# Run the scanner
-./Vulnerability-Assesment-Script-1.py example.com
+git clone https://github.com/itsmeammar/Basic-vulnerability-scanner.git
+cd Basic-vulnerability-scanner
+chmod +x Vulnerability-Assesment-Script-1.py
 ```
 
-### Method 2: Download ZIP
-1. Click the green **"Code"** button above
-2. Click **"Download ZIP"**
-3. Extract the ZIP file
-4. Open terminal in the extracted folder
-5. Run:
-```bash
-sudo apt install nmap curl dnsutils
-sudo chmod +x Vulnerability-Assesment-Script-1.py
-./Vulnerability-Assesment-Script-1.py example.com
-```
+### Usage
 
-## Usage
 ```bash
 ./Vulnerability-Assesment-Script-1.py example.com
 ```
 
-**Note:** You must have permission to scan the target website!
+Scan results are saved in the `scan_results/` directory.
 
-## Output
-All scan results are saved in the `scan_results/` directory with detailed reports.
+### Disclaimer
 
-## ⚠️ Disclaimer
-
-This tool is for **educational purposes and authorized testing only**.
-- Always get permission before scanning any website
-- Unauthorized scanning is illegal
-- The author is not responsible for misuse
-
-
-**HappyHacking!**
+⚠️ This tool is intended for **educational purposes only**.
+Use it **only on systems you own or are authorized to assess**.
+The author is not responsible for misuse.
