@@ -1,4 +1,4 @@
-# Basic Vulnerability Scanner
+# web-recon-scanner
 
 **Author:** Ammar  
 **License:** MIT
