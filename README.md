@@ -1,4 +1,4 @@
-# Web-recon-scanner
+# Web Recon Scanner
 
 **Author:** Ammar  
 **License:** MIT
@@ -41,15 +41,15 @@ brew install nmap curl bind
 ### Installation
 
 ```bash
-git clone https://github.com/itsmeammar/Basic-vulnerability-scanner.git
-cd Basic-vulnerability-scanner
-chmod +x Vulnerability-Assesment-Script-1.py
+git clone https://github.com/Itsmeammar/web-recon-scanner.git
+cd web-recon-scanner
+chmod +x Scanner.py
 ```
 
 ### Usage
 
 ```bash
-./Vulnerability-Assesment-Script-1.py example.com
+./Scanner.py example.com
 ```
 
 Scan results are saved in the `scan_results/` directory.
