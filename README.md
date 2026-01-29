@@ -1,4 +1,4 @@
-# web-recon-scanner
+# Web-recon-scanner
 
 **Author:** Ammar  
 **License:** MIT
